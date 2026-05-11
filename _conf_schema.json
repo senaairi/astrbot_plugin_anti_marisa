@@ -1,0 +1,14 @@
+{
+  "providers_id": {
+    "description": "使用的模型 (例如：deepseek/deepseek-v4-flash)",
+    "type": "string"
+  },
+  "enable": {
+    "description": "开启拦截",
+    "type": "bool"
+  },
+  "reject_message": {
+    "description": "发送给用户拦截信息",
+    "type": "string"
+  }
+}
